@@ -65,7 +65,7 @@ a#connexion:hover{
 }
 
 body{
-    background-color: #f9ebdf;    
+    background-color: white;    
 }
 
 #header{
@@ -88,7 +88,7 @@ body{
 }
 
 #background{
-    background-color: #f9ebdf;
+    /*background-color: #f9ebdf;*/
     border-top: solid 2px #bfd1ad;
 }
 #presentation{
@@ -103,9 +103,18 @@ p{
     margin-bottom: 20px;
 }
 
+#fanny{
+    margin: auto;
+    text-align: center;
+}
+
+#photo{
+    width: 30%;
+}
+
 #listmassage{
     font-style: italic;
-    margin-left: 50px;
+    margin: auto;
     margin-bottom: 20px;
 }
 
@@ -128,7 +137,7 @@ p{
 }
 
 #prestation{
-    background-color: #f9ebdf;
+    background-color: #F5F5DC;
     padding: 10px;
     border-top: solid 2px #bfd1ad;
 }
@@ -151,7 +160,7 @@ p{
     box-shadow: 10px 5px 5px #95aa6a;
     border-radius: 10px;
     max-width: 300px;
-    max-height: 450px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -160,7 +169,7 @@ p{
 
 #preslink{
     margin: auto;
-    padding: 5px;
+    padding: 10px;
 }
 
 #readmore{
@@ -175,14 +184,15 @@ a#readmore:hover{
 }
 
 #logopressize{
-    width: 60%;
+    width: 80%;
 }
 
 #logopres{
     margin: auto;
     padding: 5px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #pressubtitle{
@@ -198,9 +208,63 @@ a#readmore:hover{
     padding: 10px;
 }
 
+#important{
+    text-align: center;
+    color: #555d49;
+    font-weight: bold;
+}
+
+#caution{
+    color: #555d49;
+    font-weight: bold;
+    text-align: justify;
+    width: 600px;
+}
+
+#massagetitle{
+    color: #e2d06e;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#multiayur{
+    border: 2px solid #95aa6a;
+    box-shadow: 10px 5px 5px #95aa6a;
+    border-radius: 10px;
+    max-width: 400px;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+}
+
 #footer{
     background-color: #bfd1ad;
     text-align: center;
+}
+
+#description2{
+    text-align: justify;
+    color: #95aa6a;
+    padding: 15px;
+}
+
+#caution2{
+    text-align: justify;
+    color:#555d49;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#caution3{
+    text-align: center;
+    color:#555d49;
+    font-weight: bold;
+    padding: 10px;
 }
 
 #contact{
@@ -210,6 +274,54 @@ a#readmore:hover{
     color: black;
     margin: 0;
     padding: 10px;
+}
+
+#massagepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ayurvediques{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#forfait{
+    text-align: center;
+    font-weight: bold;
+    color: #95aa6a;
+}
+#logopage{
+    width: 25%;
+}
+
+#time{
+    text-align: center;
+    font-weight: bold;
+    color: #95aa6a;
+}
+
+#cost{
+    text-align: center;
+    font-weight: bold;
+    color: #95aa6a;
+}
+
+#description{
+    text-align: justify;
+    color: #95aa6a;
+    width: 400px;
+}
+
+#ayrulogo{
+    display: flex;
+    justify-content: center;
+}
+
+#logoayur{
+    width: 20%;
 }
 
 #footer ul{
