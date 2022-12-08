@@ -1,3 +1,7 @@
+body{
+    background-color: white;
+}
+
 #navbar{
     background-color: #bfd1ad;
     height: 100px;
@@ -91,6 +95,7 @@ body{
     /*background-color: #f9ebdf;*/
     border-top: solid 2px #bfd1ad;
 }
+
 #presentation{
     color: black;
     margin: auto;
@@ -328,6 +333,19 @@ a#readmore:hover{
     list-style: none;
     color: black;
     padding: 10px;
+}
+
+#boncadeau{
+    background-color: white;
+    border-top: solid 2px #bfd1ad;
+    padding: 10px;
+}
+
+#cadeau{
+    font-family: 'Freehand', cursive; 
+    text-align: center;
+    color: #bfd1ad;
+    font-size: 100px ; 
 }
 
 #footer li{
