@@ -1,7 +1,4 @@
-body{
-    background-color: white;
-}
-
+/*NAVBAR CSS */
 #navbar{
     background-color: #bfd1ad;
     height: 100px;
@@ -72,6 +69,8 @@ body{
     background-color: white;    
 }
 
+/* Home */
+/* Header Logo CSS*/
 #header{
     margin: auto;
     text-align: center;
@@ -91,11 +90,11 @@ body{
     padding-top: 10px;
 }
 
+/* Article presentation */
 #background{
     /*background-color: #f9ebdf;*/
     border-top: solid 2px #bfd1ad;
 }
-
 #presentation{
     color: black;
     margin: auto;
@@ -115,6 +114,12 @@ p{
 
 #photo{
     width: 30%;
+}
+
+#important{
+    text-align: center;
+    color: #555d49;
+    font-weight: bold;
 }
 
 #listmassage{
@@ -141,10 +146,12 @@ p{
     padding-bottom: 10px;
 }
 
+/* Prestation CSS */
 #prestation{
     background-color: #F5F5DC;
     padding: 10px;
     border-top: solid 2px #bfd1ad;
+    border-bottom: solid 2px #bfd1ad;
 }
 
 #prestitle{
@@ -213,12 +220,6 @@ a#readmore:hover{
     padding: 10px;
 }
 
-#important{
-    text-align: center;
-    color: #555d49;
-    font-weight: bold;
-}
-
 #caution{
     color: #555d49;
     font-weight: bold;
@@ -227,7 +228,7 @@ a#readmore:hover{
 }
 
 #massagetitle{
-    color: #e2d06e;
+    color: #c5a263;
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
@@ -235,23 +236,61 @@ a#readmore:hover{
     text-transform: uppercase;
 }
 
-#multiayur{
-    border: 2px solid #95aa6a;
-    box-shadow: 10px 5px 5px #95aa6a;
-    border-radius: 10px;
-    max-width: 400px;
-    max-height: 1000px;
-    display: flex;
-    flex-direction: column;
+/* Bon Cadeau */
+#boncadeau{
     background-color: white;
-    margin: 20px;
+    color: black;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    text-align: justify;
 }
 
+#boncadeau ul{
+    list-style: initial;
+    padding-left: 40px;
+}
+
+/* Footer CSS */
 #footer{
     background-color: #bfd1ad;
     text-align: center;
 }
 
+#footer ul{
+    list-style: none;
+    color: black;
+    padding: 10px;
+}
+
+#footer li{
+    margin: 10px;
+}
+
+.contactstyle{
+    font-weight: bold;
+}
+
+#sendmail{
+    text-decoration: none;
+    color: black;
+}
+
+a#sendmail:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#contact{
+    font-family: 'Freehand', cursive; 
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    padding: 10px;
+}
+
+/* Differentes pages massages CSS*/
 #description2{
     text-align: justify;
     color: #95aa6a;
@@ -265,32 +304,11 @@ a#readmore:hover{
     padding: 15px;
 }
 
-#caution3{
-    text-align: center;
-    color:#555d49;
-    font-weight: bold;
-    padding: 10px;
-}
-
-#contact{
-    font-family: 'Freehand', cursive; 
-    font-weight: bold;
-    font-size: 50px;
-    color: black;
-    margin: 0;
-    padding: 10px;
-}
 
 #massagepage{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#ayurvediques{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 #forfait{
@@ -320,6 +338,7 @@ a#readmore:hover{
     width: 400px;
 }
 
+/* Page massafe ayurvedique */
 #ayrulogo{
     display: flex;
     justify-content: center;
@@ -329,39 +348,19 @@ a#readmore:hover{
     width: 20%;
 }
 
-#footer ul{
-    list-style: none;
-    color: black;
-    padding: 10px;
+#ayurvediques{
+    display: flex;
+    justify-content: center;
 }
 
-#boncadeau{
+#multiayur{
+    border: 2px solid #95aa6a;
+    box-shadow: 10px 5px 5px #95aa6a;
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    border-top: solid 2px #bfd1ad;
-    padding: 10px;
-}
-
-#cadeau{
-    font-family: 'Freehand', cursive; 
-    text-align: center;
-    color: #bfd1ad;
-    font-size: 100px ; 
-}
-
-#footer li{
-    margin: 10px;
-}
-
-.contactstyle{
-    font-weight: bold;
-}
-
-#sendmail{
-    text-decoration: none;
-    color: black;
-}
-
-a#sendmail:hover{
-    text-decoration: underline;
-    font-weight: bold;
+    margin: 20px;
 }
