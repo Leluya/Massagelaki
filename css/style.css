@@ -7,9 +7,10 @@
     align-items: center;
 }
 
-#headerlink{
+#headerlink a{
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .logo{
@@ -26,7 +27,7 @@
 
 #toolbar{
     list-style: none;
-    color: white;
+    color: #f9ebdf;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
@@ -40,7 +41,7 @@
 
 #linkpage{
     text-decoration: none;
-    color: white;
+    color: #f9ebdf
 }
 
 a#linkpage:hover{
