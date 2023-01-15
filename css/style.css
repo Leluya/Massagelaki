@@ -45,8 +45,9 @@
 }
 
 a#linkpage:hover{
-    font-size: 120%;
     text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
 }
 
 #button{
@@ -86,8 +87,8 @@ body{
     font-family: 'Freehand', cursive; 
     text-align: center;
     color: #bfd1ad;
-    font-size: 100px ;
-    padding-bottom: 30px;
+    font-size: 60px ;
+    padding-bottom: 50px;
     padding-top: 10px;
 }
 
@@ -102,6 +103,26 @@ body{
     width: 60%;
     text-align: center;
     text-align: justify;
+}
+
+#questionnaire{
+    color: #95aa6a;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a#questionnaire:hover{
+    text-decoration: underline;
+}
+
+#asso{
+    color: #95aa6a;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a#asso:hover{
+    text-decoration: underline;
 }
 
 p{
@@ -289,6 +310,18 @@ a#sendmail:hover{
     color: black;
     margin: 0;
     padding: 10px;
+}
+
+#social{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+#social a{
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
 /* Differentes pages massages CSS*/
