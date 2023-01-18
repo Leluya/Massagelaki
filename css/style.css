@@ -142,7 +142,7 @@ body{
 }
 
 #brandlogo{
-    width: 40%;
+    width: 30%;
 }
 
 #title{
@@ -165,6 +165,11 @@ body{
     width: 60%;
     text-align: center;
     text-align: justify;
+    padding-top: 40px;
+}
+
+#presentation p{
+    font-style: italic;
 }
 
 #questionnaire{
@@ -325,9 +330,10 @@ a#readmore:hover{
     background-color: white;
     color: black;
     margin: auto;
-    width: 60%;
+    max-width: 800px;
     text-align: center;
     text-align: justify;
+    padding-top: 40px;
 }
 
 #boncadeau ul{
@@ -459,4 +465,15 @@ a#sendmail:hover{
     flex-direction: column;
     background-color: white;
     margin: 20px;
+}
+
+/* copines */
+#copinestext{
+    background-color: white;
+    color: black;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    text-align: justify;
+    padding-bottom: 20px;
 }
