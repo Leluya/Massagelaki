@@ -452,6 +452,7 @@ a#sendmail:hover{
 
 #ayurvediques{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
