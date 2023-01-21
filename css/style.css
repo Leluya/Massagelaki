@@ -102,8 +102,9 @@ nav a:hover:before {
     nav a {
         position: relative;
         text-decoration: none;
-        color: #f9ebdf;
-        font-size: 1em;
+        color: #bfd1ad;
+        font-weight: bold;
+        font-size: 0.75em;
         display: inline-block;
         margin-top: 1.25em;
         transition: color 0.2s ease-in-out;
@@ -115,13 +116,13 @@ nav a:before {
         height: 0;
         position: absolute;
         width: 0.25em;
-        background-color: #f9ebdf;
+        background-color: #bfd1ad;
         left: -0.5em;
         transition: all 0.2s ease-in-out;
 }
 
 nav a:hover {
-        color: #f9ebdf;
+        color: #bfd1ad;
 }
 
 nav a:hover:before {
@@ -440,6 +441,21 @@ a#sendmail:hover{
     width: 400px;
 }
 
+@media (max-width: 700px) {
+    #description{
+        text-align: justify;
+        color: #95aa6a;
+        width: 300px;
+    }
+
+    #caution{
+        color: #555d49;
+        font-weight: bold;
+        text-align: justify;
+        width: 300px;
+    }
+}
+
 /* Page massafe ayurvedique */
 #ayrulogo{
     display: flex;
@@ -477,4 +493,23 @@ a#sendmail:hover{
     text-align: center;
     text-align: justify;
     padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    #copinestext{
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        text-align: justify;
+    }
+
+    #boncadeau{
+        background-color: white;
+        color: black;
+        margin: auto;
+        width: 300px;
+        text-align: center;
+        text-align: justify;
+        padding-top: 40px;
+    }
 }
